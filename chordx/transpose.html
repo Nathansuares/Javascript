@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">chordx</li>
+            <li><button class="homebut">Home</button></li>
+            <li><button class="homebut">Transpose</button></li>
+            <li><button class="homebut">Chords</button></li>
+            <li><button class="but1">Sign Up</button></li>
+        </ul>
+    </nav>
+    <div class="dropdown">
+        <h3>Select a Scale: </h3>
+        <button onclick="myFunction()" class="dropbtn">Scale <span class="arrow-right"></span></button>
+        <div id="myDropdown" class="dropdown-content">
+            <button class="scales">C</button>
+            <button class="scales">C#/Db</button>
+            <button class="scales">D</button>
+            <button class="scales">D#/Eb</button>
+            <button class="scales">E</button>
+            <button class="scales">F</button>
+            <button class="scales">F#/Gb</button>
+            <button class="scales">G</button>
+            <button class="scales">G#/Ab</button>
+            <button class="scales">A</button>
+            <button class="scales">A#/Bb</button>
+            <button class="scales">B</button>
+          </div>
+    </div>
+    <div>
+        <h2 id="h22">Transpose Meter</h2>
+        <lable id="countlabel">0</lable>
+        <div id="button">
+            <button id="decrease" class="but">-</button>
+            <button id="reset" class="but">Reset</button>
+            <button id="increase" class="but">+</button>
+        </div>
+        <h3>scale:</h3>
+        <p>C</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
