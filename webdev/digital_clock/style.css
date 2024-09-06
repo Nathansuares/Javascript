@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-image: url(imagge.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    color: rgb(12, 7, 0);
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+}

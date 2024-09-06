@@ -1,0 +1,30 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gamecontainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+#restart{
+    width: 100px;
+    height: 40px;
+    font-size: 1.3rem;
+    font-family: "Permanent Marker", cursive;
+    border: 2px solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+#restart:hover{
+    background-color: rgb(123, 172, 215);
+}
